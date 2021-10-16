@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:onClick="showDonutOrder"
         android:text="@string/droid_desserts"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -18,7 +20,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="showDonutOrder"
         tools:ignore="UsingOnClickInXml" />
 
     <ImageView
@@ -95,5 +96,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/froyo"
         app:layout_constraintTop_toTopOf="@+id/froyo" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:clickable="true"
+        android:contentDescription="@string/float_button"
+        android:focusable="true"
+        android:onClick="onClick"
+        app:backgroundTint="@color/fucsia_100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/froyo"
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@drawable/ic_shopping_cart"
+        app:tint="@color/white"
+        tools:ignore="UsingOnClickInXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

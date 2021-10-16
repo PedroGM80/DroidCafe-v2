@@ -1,22 +1,27 @@
 package gallego.morales.droidcafe;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE =
+            "com.example.android.droidcafe.extra.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message,
                 Toast.LENGTH_SHORT).show();
     }
+
     /**
      * Shows a message that the donut image was clicked.
      */
@@ -37,4 +42,8 @@ public class MainActivity extends AppCompatActivity {
         displayToast(getString(R.string.froyo_order_message));
     }
 
+    public void onClick(View view) {
+        Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+        startActivity(intent);
+    }
 }
