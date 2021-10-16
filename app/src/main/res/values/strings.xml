@@ -10,4 +10,14 @@
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
     <string name="float_button">float button go to the order</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="name_enter">Enter your name</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="enter_address_hint">Enter address</string>
+    <string name="enter_phone_hint">Enter phone</string>
+    <string name="enter_note_hint">Enter a note</string>
+    <string name="order">Order</string>
+    <string name="phone">Phone</string>
+    <string name="note">Note</string>
 </resources>
