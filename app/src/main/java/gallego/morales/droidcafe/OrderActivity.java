@@ -11,6 +11,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class OrderActivity extends AppCompatActivity {
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(OrderActivity
+                .this, TabActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

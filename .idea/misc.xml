@@ -5,8 +5,17 @@
       <map>
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/activity_order.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/activity_tab.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/conten_main.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/content_main.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/fragment_tab1.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/fragment_tab2.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/fragment_tab3.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/item_viewpager.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/tab_activity.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/layout/tab_fragment1.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/menu/menu_main.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe-v2/app/src/main/res/menu/menu_main_tab.xml" value="0.264" />
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe/app/src/main/res/layout/activity_main.xml" value="0.15307971014492755" />
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/Documentos/AndroidProjects/DroidCafe/app/src/main/res/layout/activity_order.xml" value="0.264" />
         <entry key="..\:/Users/pedro/OneDrive/Escritorio/DroidCafe/app/src/main/res/layout/activity_main.xml" value="0.24369747899159663" />
